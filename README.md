@@ -4,4 +4,4 @@ My echarts start project.
 
 ## Todos
 - [] official tutorial & examples
-- [] line chart with antd
+- [] line chart with antd and React

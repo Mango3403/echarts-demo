@@ -7,6 +7,14 @@
 * [x] echarts 实例
 * [x] series
 * [ ] component
+  * [x] geo
+  * [ ] polar
+  * [x] visualMap
+  * [x] dataZoom
+  * [x] tooltip
+  * [x] toolbox
+  * [ ] grid
+  * [ ] angleAxis
 * [ ] 用 option 描述图表
 ### 动态排序柱状图
 

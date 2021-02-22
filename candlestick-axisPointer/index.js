@@ -43,6 +43,7 @@ axios.get(ROOT_PATH + '/data/asset/data/stock-DJI.json').then(function (res) {
   let rawData = res.data;
   console.log(rawData);
   let data = splitData(rawData);
+  console.log(data);
 
   option = {
     animation: false,
@@ -102,6 +103,12 @@ axios.get(ROOT_PATH + '/data/asset/data/stock-DJI.json').then(function (res) {
         height: '15%'
       }
     ],
+    // visualMap: [{
+    //   type: 'continuous',
+    //   seriesIndex: 0,
+    //   min: 6000,
+    //   max: 20000,
+    // }],
     xAxis: [
       {
         type: 'category',
