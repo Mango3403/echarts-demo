@@ -41,11 +41,35 @@ fetch(ROOT_PATH + '/data/asset/geo/USA.json')
         sublink: 'http://www.census.gov/popest/data/datasets.html',
         left: 'center'
       },
+      tooltip: {},
+      visualMap: {
+        left: 'right',
+        min: 500000,
+        max: 38000000,
+        text: ['High', 'Low'],
+        // inRange: {
+        //   color: ['']
+        // },
+        calculable: true
+      },
+      toolbox: {
+        show: true,
+        // orient: 'vertical',
+        left: 'left',
+        top: 'top',
+        feature: {
+          dataView: {
+            readOnly: false,
+          },
+          restore: {},
+          saveAsImage: {}
+        }
+      },
       series: [{
         name: 'USA PopEstimates',
         type: 'map',
         map: 'USA',
-        // roam: true,
+        roam: true,
         // emphasis: {
         //   label: {
         //     show: true

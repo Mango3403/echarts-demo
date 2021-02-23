@@ -13,8 +13,9 @@
   * [x] dataZoom
   * [x] tooltip
   * [x] toolbox
-  * [ ] grid
+  * [x] grid
   * [ ] angleAxis
 * [ ] 用 option 描述图表
 ### 动态排序柱状图
+### 使用 dataset 管理数据
 
