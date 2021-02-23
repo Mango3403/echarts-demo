@@ -8,6 +8,7 @@ let option;
 
 myChart.showLoading();
 
+
 fetch(ROOT_PATH + '/data/asset/geo/USA.json')
   .then(res => res.json())
   .then(function (usaJson) {
